@@ -16,3 +16,9 @@
 
 # MainUserEnteryTest Class:
 ![MainUserEnteryTest](https://user-images.githubusercontent.com/77408701/115971986-83ae3480-a554-11eb-91c8-e8911962cf33.PNG)
+
+# Run of MainDefaultTest Class
+![Run of MainDefaultTest](https://user-images.githubusercontent.com/77408701/115972064-f3242400-a554-11eb-9a87-86b3a4144238.PNG)
+
+# Run of MainUserEnteryTest Class (With bad Date Check)
+![Run of MainUserEnteryTest](https://user-images.githubusercontent.com/77408701/115972114-40a09100-a555-11eb-84df-eff2f40e906c.PNG)
