@@ -27,8 +27,8 @@ public class SimpleBankingApplication
                                     double newAccountBalance, int newNumTransactions,
                                     String newLastTransacDate)
     {
-        if (customerName == null || customerLastName == null || accountBalance < 0.0
-            || numTransactions < 0 || lastTransacDate == null)
+        if (newCustomerName == null || newCustomerLastName == null || newAccountBalance < 0.0
+            || newNumTransactions < 0 || newLastTransacDate == null)
         {
             System.out.println("Fatal Error! The information is wrong! Please try again!");
             System.exit(0);
@@ -71,7 +71,7 @@ public class SimpleBankingApplication
     
     public void setCustomerName(String newCustomerName)
     {
-        if (customerName == null)
+        if (newCustomerName == null)
         {
             System.out.println("Fatal Error! Name cannot be null!");
             System.exit(0);
@@ -85,7 +85,7 @@ public class SimpleBankingApplication
     
     public void setCustomerLastName(String newCustomerLastName)
     {
-        if (customerLastName == null)
+        if (newCustomerLastName == null)
         {
             System.out.println("Fatal Error! Last name cannot be null!");
             System.exit(0);
@@ -99,7 +99,7 @@ public class SimpleBankingApplication
     
     public void setAccountBalance(double newAccountBalance)
     {
-        if (accountBalance < 0)
+        if (newAccountBalance < 0)
         {
             System.out.println("Fatal Error! Account balance cannot be less than 0!");
             System.exit(0);
@@ -113,7 +113,7 @@ public class SimpleBankingApplication
     
     public void setNumTransactions(int newNumTransactions)
     {
-        if (numTransactions < 0)
+        if (newNumTransactions < 0)
         {
             System.out.println("Fatal Error! Number of transactions cannot be less than 0!");
             System.exit(0);
@@ -127,7 +127,7 @@ public class SimpleBankingApplication
     
     public void setLastTransacDate(String newLastTransacDate)
     {
-        if (lastTransacDate == null)
+        if (newLastTransacDate == null)
         {
             System.out.println("Fatal Error! Last transaction date cannot be a negative value!");
             System.exit(0);
@@ -141,8 +141,7 @@ public class SimpleBankingApplication
     
     public SimpleBankingApplication(SimpleBankingApplication copyObject)
     {
-        if (customerName == null || customerLastName == null || accountBalance < 0.0
-            || numTransactions < 0 || lastTransacDate == null)
+        if (copyObject == null)
         {
             System.out.println("Fatal Error! The information is wrong! Please try again!");
             System.exit(0);
